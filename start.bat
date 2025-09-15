@@ -1,2 +1,2 @@
-  java -Xms4G -Xmx4G -jar spigot.jar run
+  java -Xms4G -Xmx4G -jar server.jar
 PAUSE

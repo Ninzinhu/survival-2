@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Registro Minecraft AuthMe</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background: #222;
+        color: #eee;
+      }
+      .container {
+        max-width: 400px;
+        margin: 60px auto;
+        background: #333;
+        padding: 30px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px #000;
+      }
+      h2 {
+        text-align: center;
+      }
+      input,
+      button {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        border-radius: 4px;
+        border: none;
+      }
+      button {
+        background: #4caf50;
+        color: #fff;
+        font-weight: bold;
+        cursor: pointer;
+      }
+      .msg {
+        margin: 10px 0;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Registrar Conta Minecraft</h2>
+      <form id="registerForm">
+        <input type="text" id="username" placeholder="Usuário" required />
+        <input type="password" id="password" placeholder="Senha" required />
+        <input
+          type="password"
+          id="confirm"
+          placeholder="Confirmar Senha"
+          required />
+        <button type="submit">Registrar</button>
+      </form>
+      <div class="msg" id="msg"></div>
+    </div>
+    <script>
+      document.getElementById("registerForm").onsubmit = async function (e) {
+        e.preventDefault();
+        const username = document.getElementById("username").value;
+        const password = document.getElementById("password").value;
+        const confirm = document.getElementById("confirm").value;
+        const msg = document.getElementById("msg");
+        msg.textContent = "";
+        if (password !== confirm) {
+          msg.textContent = "As senhas não coincidem.";
+          return;
+        }
+        const res = await fetch("/api/register", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ username, password }),
+        });
+        const data = await res.json();
+        msg.textContent = data.message;
+      };
+    </script>
+  </body>
+</html>
