@@ -1,0 +1,35 @@
+name: viajante
+permissions:
+- modify.world.*
+- auctionhouse.cancel
+- auctionhouse.menuw
+- auctionhouse.sell
+- auctionhouse.use
+- betterrtp.world
+- betterrtp.world.world
+- chestcommands.open.piedras.yml
+- esenciales.delhome
+- esencias.sethome
+- essentials.delhome
+- essentials.home
+- essentials.kit
+- essentials.kits.tools
+- essentials.sell
+- essentials.sethome
+- essentials.signs.use.buy
+- essentials.spawn
+- essentials.tpa
+- essentials.tpacancel
+- essentials.tpaccept
+- inicio.esencial
+- jobs.all
+- jobs.join
+- protectionstones.add
+- protectionstones.create
+- protectionstones.destroy
+- protectionstones.list
+- protectionstones.members
+- protectionstones.unclaim
+prefixes:
+- '&6&luser':
+    priority: 3

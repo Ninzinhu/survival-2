@@ -1,0 +1,79 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+  # REQUIRED
+  # Título que aparece no menu
+  name: "&1Pedras de Proteção"
+
+  # REQUIRED
+  # Número de linhas no menu
+  rows: 3
+
+  # OPTIONAL
+  # Comandos que o jogador pode usar para abrir o menu
+  commands:
+    - "pedras"
+
+  # OPTIONAL
+  # Com que frequência o menu será atualizado, em segundos
+  # Útil se você tiver placeholders nas descrições dos ícones
+  auto-refresh: 5
+
+  # OPTIONAL
+  # Estas ações serão executadas quando o menu for aberto
+  # Suporta todos os tipos de ações de ícone
+  open-actions:
+    - "tell: &eVocê abriu o menu de pedras."
+
+  # OPTIONAL
+  # The menu will open only when right-clicking with a compass.
+  open-with-item:
+    material: compass
+    left-click: false
+    right-click: true
+
+######################
+#+                  +#
+#       ICONS        #
+#+                  +#
+######################
+
+Pedra1:
+  MATERIAL: emerald ore
+  POSITION-X: 3
+  POSITION-Y: 1
+  NAME: "&eComprar Pedra de Proteção Grande"
+  LORE:
+    - "Clique para comprar"
+    - "Dinheiro Necessário: &a{money} &8/&a$10000"
+  ACTIONS:
+    - "console: ps give 64 {player} "
+  PRICE: 10000
+
+Pedra2:
+  MATERIAL: coal ore
+  POSITION-X: 1
+  POSITION-Y: 1
+  NAME: "&eComprar Pedra de Proteção Básica"
+  LORE:
+    - "Clique para comprar"
+    - "Dinheiro Necessário: &a{money} &8/&a$500"
+  ACTIONS:
+    - "console: ps give 10 {player} "
+  PRICE: 500
+
+Pedra3:
+  MATERIAL: diamond ore
+  POSITION-X: 2
+  POSITION-Y: 1
+  NAME: "&eComprar Pedra de Proteção Média"
+  LORE:
+    - "Clique para comprar"
+    - "Dinheiro Necessário: &a{money} &8/&a$5000"
+  ACTIONS:
+    - "console: ps give 32 {player} "
+  PRICE: 5000

@@ -1,0 +1,89 @@
+# Tradução em Português do Brasil para AuthMe
+# List of global tags:
+# %nl% - Goes to new line.
+# %username% - Replaces the username of the player receiving the message.
+# %displayname% - Replaces the nickname (and colors) of the player receiving the message.
+
+# Registration
+registration:
+  disabled: "&cO registro está desativado"
+  name_taken: "&cUsuário já registrado"
+  register_request: '&cPor favor, registre-se com "/register <senha> <confirmarSenha>"'
+  command_usage: "&cUso: /register <senha> <confirmarSenha>"
+  reg_only: "&fSomente para jogadores cadastrados! Por favor, visite nosso site para se registrar"
+  success: '&aCadastrado com sucesso! Você pode entrar com "/login <senha>"'
+  kicked_admin_registered: "Um administrador registrou você; faça login novamente"
+
+# Password errors on registration
+password:
+  match_error: "&cAs senhas não são iguais"
+  name_in_password: "&cVocê não pode usar seu nome como senha. Por favor escolha outra..."
+  unsafe_password: "&cA senha escolhida não é segura, escolha outra..."
+  forbidden_characters: "&cSua senha possui caracteres não permitidos: %valid_chars"
+  wrong_length: "&cSua senha é muito longa ou muito curta"
+
+# Login
+login:
+  command_usage: "&cUso: /login <senha>"
+  wrong_password: "&cSenha incorreta"
+  success: "&aSessão iniciada com sucesso!"
+  login_request: '&cFaça login com "/login <senha>"'
+  timeout_error: "&cTempo limite de login excedido, por favor reconecte-se"
+
+# Errors
+error:
+  denied_command: "&cPara utilizar este comando você deve estar logado!"
+  denied_chat: "&cPara falar no chat você deve estar logado!"
+  unregistered_user: "&cUsuário não registrado"
+  not_logged_in: "&cVocê não está logado!"
+  no_permission: "&cVocê não tem permissão"
+  unexpected_error: "&cOcorreu um erro. Por favor, contate um administrador."
+  max_registration: "&cVocê excedeu o número máximo de registros"
+  logged_in: "&cVocê já está logado!"
+  kick_for_vip: "&cUm jogador VIP entrou no servidor lotado!"
+  tempban_max_logins: "&cVocê foi temporariamente banido por tentar logar muitas vezes."
+
+# AntiBot
+antibot:
+  kick_antibot: "O modo de proteção AntiBot está ativado! Aguarde alguns minutos antes de entrar no servidor."
+  auto_enabled: "[AuthMe] AntiBotMod ativado automaticamente devido a conexões em massa!"
+  auto_disabled: "[AuthMe] AntiBotMod desativado automaticamente após %m minutos."
+
+# Email
+email:
+  add_email_request: "&cAdicione seu e-mail com: /email add <seuEmail> <confirmarEmail>"
+  usage_email_add: "&fUso: /email add <email> <confirmarEmail>"
+  usage_email_change: "&fUso: /email change <emailAntigo> <novoEmail>"
+  new_email_invalid: "[AuthMe] Novo e-mail inválido!"
+  old_email_invalid: "[AuthMe] E-mail antigo inválido!"
+  invalid: "[AuthMe] E-mail inválido!"
+  added: "[AuthMe] E-mail adicionado com sucesso!"
+  add_not_allowed: "&cNão é permitido adicionar e-mail"
+  request_confirmation: "[AuthMe] Confirme seu e-mail!"
+  changed: "[AuthMe] E-mail alterado com sucesso!"
+  change_not_allowed: "&cNão é permitido alterar e-mail"
+  email_show: "&2Seu e-mail atual é: &f%email"
+  no_email_for_account: "&2Você não tem e-mail associado à sua conta"
+  already_used: "&4Este e-mail já está em uso"
+  incomplete_settings: "Erro: Nem todas as configurações necessárias foram definidas para enviar e-mails"
+  send_failure: "Não foi possível enviar o e-mail. Contate um administrador."
+
+# Password recovery
+recovery:
+  forgot_password_hint: "&cEsqueceu sua senha? Use /email recovery <seuEmail>"
+  command_usage: "&fUso: /email recovery <seuEmail>"
+  email_sent: "[AuthMe] E-mail de recuperação enviado!"
+  code:
+    code_sent: "O código de recuperação foi enviado para seu e-mail."
+    incorrect: 'Código de recuperação incorreto! Use "/email recovery [email]" para gerar um novo'
+    tries_exceeded: 'Você excedeu o número máximo de tentativas. Use "/email recovery [email]" para gerar um novo código.'
+    correct: "Código de recuperação correto!"
+    change_password: 'Use o comando "/email setpassword <novaSenha>" para alterar sua senha agora.'
+
+# Captcha
+captcha:
+  usage_captcha: "&cUso: /captcha %captcha_code"
+  wrong_captcha: "&cCaptcha incorreto, digite: /captcha %captcha_code"
+  valid_captcha: "&aCaptcha validado com sucesso!"
+  captcha_for_registration: "Para se registrar, primeiro resolva o captcha: /captcha %captcha_code"
+  register_captcha_valid: "&aCaptcha válido! Agora você pode se registrar."

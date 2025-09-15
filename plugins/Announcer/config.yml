@@ -1,0 +1,19 @@
+#######################################################
+##                   Created By                      ##
+##                    Nin                        ##
+#######################################################
+announcement:
+    enabled: true
+    random: false
+    prefix: '&c[Anuncio] '
+    interval: 180
+    check-for-updates: true
+    messages:
+    - '&d&lFullDev §6Não se esqueça de comprar sua pedra de proteção com o comando /pedras'
+    - '&d&lFullDev §6Não se esqueça de visitar a loja em /spawn'
+    - '&d&lFullDev §6Venda seus objetos de valor com o comando /ah'
+    - '&d&lFullDev §6Use seus kits de acordo com sua classificação com o comando /kits'
+    - '&d&lFullDev §6Escolha seus trabalhos com o comando /jobs browse'
+    - '&d&lFullDev §6 Acesse nosso discord https://discord.gg/2vMkX7kc8t'
+    
+ 

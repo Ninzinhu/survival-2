@@ -1,0 +1,37 @@
+name: vip
+permissions:
+- modify.world.*
+- auctionhouse.cancel
+- auctionhouse.menu
+- auctionhouse.sell
+- auctionhouse.use
+- betterrtp.world
+- betterrtp.world.world
+- chestcommands.open.piedras.yml
+- crazycrates.open.Vip
+- esenciales.delhome
+- esencias.sethome
+- essentials.delhome
+- essentials.home
+- essentials.kit
+- essentials.kits.dtools
+- essentials.kits.firework
+- essentials.sethome
+- essentials.signs.use.buy
+- essentials.signs.use.sell
+- essentials.spawn
+- essentials.tpa
+- essentials.tpacancel
+- essentials.tpaccept
+- inicio.esencial
+- jobs.all
+- jobs.join
+- protectionstones.add
+- protectionstones.create
+- protectionstones.destroy
+- protectionstones.list
+- protectionstones.members
+- protectionstones.unclaim
+prefixes:
+- '&a&lvip':
+    priority: 2

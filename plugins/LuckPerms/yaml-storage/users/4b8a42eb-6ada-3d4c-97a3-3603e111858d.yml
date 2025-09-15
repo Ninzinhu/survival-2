@@ -1,0 +1,8 @@
+uuid: 4b8a42eb-6ada-3d4c-97a3-3603e111858d
+name: YoungNinn
+primary-group: owner
+permissions:
+- Owner
+- owner
+parents:
+- owner

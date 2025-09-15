@@ -1,0 +1,16 @@
+2025-09-14 17:31:29 [INFO]: [BetterRTP] Loading Overrides...
+2025-09-14 17:31:29 [INFO]: [BetterRTP] Loading World Types...
+2025-09-14 17:31:29 [INFO]: [BetterRTP] - World Type for 'world' set to 'NORMAL'
+2025-09-14 17:31:29 [INFO]: [BetterRTP] - World Type for 'world_nether' set to 'NETHER'
+2025-09-14 17:31:29 [INFO]: [BetterRTP] - World Type for 'world_the_end' set to 'NORMAL'
+2025-09-14 17:31:29 [INFO]: [BetterRTP] Loading Defaults...
+2025-09-14 17:31:29 [INFO]: [BetterRTP] Loading Custom Worlds...
+2025-09-14 17:31:29 [INFO]: [BetterRTP] [WARN] - Custom World 'custom_world_1' was not registered because world does NOT exist
+2025-09-14 17:31:29 [INFO]: [BetterRTP] [WARN] - Custom World 'other_custom_world' was not registered because world does NOT exist
+2025-09-14 17:31:31 [INFO]: [BetterRTP] Database CHUNK_DATA:ChunkData configured and loaded!
+2025-09-14 17:31:31 [INFO]: [BetterRTP] Database QUEUE:Queue configured and loaded!
+2025-09-14 17:31:31 [INFO]: [BetterRTP] Database PLAYERS:Players configured and loaded!
+2025-09-14 17:31:31 [INFO]: [BetterRTP] Attempting to queue up some more safe locations...
+2025-09-14 17:31:33 [WARNING]: [BetterRTP] Seems like the world `lobby` does not have a `WorldType` declared. Please add/fix this in the config.yml file! This world will be treated as an overworld! If this world is a nether world, configure it to NETHER (example: `- lobby: NETHER`
+2025-09-14 17:32:34 [INFO]: [BetterRTP] Max attempts to create a Queue reached for default_lobby (amount: 0)
+2025-09-14 17:32:34 [INFO]: [BetterRTP] Queueing paused, max queue limit reached!

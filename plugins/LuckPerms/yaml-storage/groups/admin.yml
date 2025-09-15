@@ -1,0 +1,12 @@
+name: admin
+permissions:
+  - essentials.ban
+  - essentials.gamemode
+  - essentials.*
+  - essentials.kit
+  - essentials.sethome.multiple.staff
+  - jobs.*
+  - protectionstones.*
+prefixes:
+  - "&c&lAdmin 🛡️ ":
+      priority: 1

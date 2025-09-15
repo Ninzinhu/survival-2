@@ -1,0 +1,7 @@
+no-open-permission: '&cVoce não tem permissao &e{permission} &cpara usar esse menu'
+default-no-icon-permission: '&cVoce não tem permissao para usar esse icone'
+no-required-item: '&cVocê deve ter &e{amount}x {material} &c(durability: {durability}) para isso.'
+no-money: '&cVoce precisa {money}$ para isso'
+no-exp: '&cVoce precisa {levels} niveis de experiencia para isso'
+menu-not-found: '&cMenu nao encontrado, por favor entre em contato com um administrador.'
+any: any

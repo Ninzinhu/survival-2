@@ -1,0 +1,23 @@
+name: dev
+permissions:
+  - "*"
+  - essentials.*
+  - luckperms.*
+  - jobs.*
+  - protectionstones.*
+  - worldedit.*
+  - worldguard.*
+  - vault.*
+  - sternalboard.*
+  - chestcommands.*
+  - auctionhouse.*
+  - authme.*
+  - sleepmost.*
+  - holographicdisplays.*
+  - znpcs.*
+  - serversnpc.*
+  - test.*
+  - testcommand.*
+prefixes:
+  - "&e&lDEV ⚡ ":
+      priority: 1

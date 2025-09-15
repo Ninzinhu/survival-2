@@ -1,0 +1,158 @@
+# This file must be in ANSI if win, or UTF-8 if linux.
+# List of global tags:
+# %nl% - Goes to new line.
+# %username% - Replaces the username of the player receiving the message.
+# %displayname% - Replaces the nickname (and colors) of the player receiving the message.
+
+# Registration
+registration:
+  disabled: "&cO registro está desativado"
+  name_taken: "&cUsuario já registrado"
+  register_request: '&cPor favor, se registrar com "/register <senha> <confirmarSenha">'
+  command_usage: "&cUse: /register Senha Confirmar senha"
+  reg_only: "&fSomente para jogadores cadastrados! Por favor, visite http://www.example.com/ para se registrar"
+  success: '&cCadastrado com sucesso! Você pode entrar com "/login senha"'
+  kicked_admin_registered: "Um administrador acabou de registrar você; faça login novamente"
+
+# Password errors on registration
+password:
+  match_error: "&fAs senhas não são iguais"
+  name_in_password: "&cVocê não pode usar seu nome como senha. Por favor escolha outro..."
+  unsafe_password: "&cA senha escolhida não é segura, escolha outra..."
+  forbidden_characters: "&cSua senha possui caracteres não suportados, que são: %valid_chars"
+  wrong_length: "&fSua senha é muito longa ou muito curta"
+
+# Login
+login:
+  command_usage: "&cUse: /login senha"
+  wrong_password: "&cSenha incorreta"
+  success: "&cSessão iniciada com sucesso!"
+  login_request: '&cFaça login com "/login senha"'
+  timeout_error: "&fTempo limite de login excedido, por favor reconecte-se.."
+
+# Errors
+error:
+  denied_command: "&cPara utilizar este comando você deve estar logado!"
+  denied_chat: "&cPara falar no chat você deve estar logado!"
+  unregistered_user: "&cUsuario no registrado"
+  not_logged_in: "&c¡No has iniciado sesión!"
+  no_permission: "&cNo tienes permiso"
+  unexpected_error: "&fHa ocurrido un error. Por favor contacta al administrador."
+  max_registration: "&fHas excedido la cantidad máxima de registros para tu cuenta"
+  logged_in: "&c¡Ya has iniciado sesión!"
+  kick_for_vip: "&c¡Un jugador VIP ha ingresado al servidor lleno!"
+  # TODO kick_unresolved_hostname: '&cAn error occurred: unresolved player hostname!'
+  tempban_max_logins: "&cHas sido expulsado temporalmente por intentar iniciar sesión demasiadas veces."
+
+# AntiBot
+antibot:
+  kick_antibot: "¡El modo de protección AntiBot está habilitado! Tienes que esperar varios minutos antes de entrar en el servidor."
+  auto_enabled: "[AuthMe] AntiBotMod activado automáticamente debido a conexiones masivas!"
+  auto_disabled: "[AuthMe] AntiBotMod desactivado automáticamente después de %m minutos. Esperamos que haya terminado"
+
+# Unregister
+unregister:
+  success: "&c¡Cuenta eliminada del registro!"
+  command_usage: "&cUso: /unregister contraseña"
+
+# Other messages
+misc:
+  account_not_activated: "&fSua conta ainda não está ativada, verifique seu e-mail!"
+  password_changed: "&cSenha alterada!"
+  logout: "&cDesconectado com sucesso."
+  reload: "&fConfiguração e banco de dados recarregados."
+  usage_change_password: "&fUso: /changepw senhaAtual senhaNova"
+  accounts_owned_self: "Você é proprietário de %count contas:"
+  accounts_owned_other: "O jogador %name possui %count contas:"
+
+# Session messages
+session:
+  valid_session: "&cSessão válida"
+  invalid_session: "&fOs dados da sessão não correspondem. Por favor, aguarde o término da sessão."
+
+# Error messages when joining
+on_join_validation:
+  same_ip_online: "Já existe um jogador com o mesmo IP no jogo!"
+  same_nick_online: "&fJá existe um usuário com esse nick conectado (possível erro)"
+  name_length: "&cSeu nome de usuário é muito longo ou muito curto."
+  characters_in_name: "&cSeu usuário possui caracteres não permitidos: %valid_chars"
+  kick_full_server: "&cO servidor está cheio, desculpe!"
+  country_banned: "Seu país foi banido deste servidor!"
+  not_owner_error: "Você não é o proprietário desta conta. Por favor, escolha outro nome!"
+  invalid_name_case: "Só pode entrar com o nome de usuário %valid, não %invalid."
+  quick_command: "Você usou o comando rápido demais! Por favor, entre novamente e espere um pouco antes de usar qualquer comando."
+
+# Email
+email:
+  add_email_request: "&cPor favor adicione seu e-mail com: /email add seuEmail confirmarEmail"
+  usage_email_add: "&fUso: /email add <email> <confirmaEmail> "
+  usage_email_change: "&fUso: /email change <emailAntigo> <emailNovo> "
+  new_email_invalid: "[AuthMe] Novo e-mail inválido!"
+  old_email_invalid: "[AuthMe] E-mail antigo inválido!"
+  invalid: "[AuthMe] E-mail inválido"
+  added: "[AuthMe] E-mail adicionado!"
+  add_not_allowed: "&cNão é permitido adicionar um e-mail"
+  request_confirmation: "[AuthMe] Confirme seu e-mail!"
+  changed: "[AuthMe] E-mail alterado!"
+  change_not_allowed: "&cNão é permitido alterar o e-mail"
+  email_show: "&2Seu endereço de e-mail atual é: &f%email"
+  no_email_for_account: "&2Você não tem nenhum e-mail associado a esta conta."
+  already_used: "&4Este endereço de e-mail já está em uso"
+  incomplete_settings: "Erro: nem todas as configurações necessárias foram feitas para enviar e-mails. Por favor, contate um administrador."
+  send_failure: "Não foi possível enviar o e-mail. Por favor, contate um administrador."
+  change_password_expired: "Você não pode alterar a senha usando este comando."
+  email_cooldown_error: "&cO e-mail foi enviado recentemente. Aguarde %time antes de enviar outro."
+
+# Password recovery by email
+recovery:
+  forgot_password_hint: "&cEsqueceu sua senha? Use /email recovery <seuEmail>"
+  command_usage: "&fUso: /email recovery <Email>"
+  email_sent: "[AuthMe] E-mail de recuperação enviado!"
+  code:
+    code_sent: "O código de recuperação para recuperar sua senha foi enviado para seu e-mail."
+    incorrect: 'O código de recuperação está incorreto! Use "/email recovery [email]" para gerar um novo.'
+    tries_exceeded: 'Você excedeu o número máximo de tentativas para inserir o código de recuperação. Use "/email recovery [seuEmail]" para gerar um novo.'
+    correct: "Código de recuperação inserido corretamente!"
+    change_password: 'Use o comando "/email setpassword <novaSenha>" para alterar sua senha imediatamente.'
+
+# Captcha
+captcha:
+  usage_captcha: "&cUso: /captcha %captcha_code"
+  wrong_captcha: "&cCaptcha incorreto, por favor use: /captcha %captcha_code"
+  valid_captcha: "&cCaptcha inserido corretamente!"
+  captcha_for_registration: "Para se registrar, primeiro resolva o captcha usando o comando: /captcha %captcha_code"
+  register_captcha_valid: "&2Captcha validado! Agora você pode se registrar usando /register"
+
+# Verification code
+verification:
+  code_required: "&3Este comando é privado e requer verificação por e-mail! Verifique sua caixa de entrada e siga as instruções do e-mail."
+  command_usage: "&cUso: /verification <código>"
+  incorrect_code: '&cCódigo incorreto, por favor digite "/verification <código>" no chat, usando o código recebido por e-mail.'
+  success: "&2Sua identidade foi verificada! Agora você pode executar todos os comandos nesta sessão."
+  already_verified: "&2Você já pode executar todos os comandos de segurança nesta sessão!"
+  code_expired: "&3Seu código expirou! Execute novamente o comando de segurança para obter um novo código!"
+  email_needed: "&3Para verificar sua identidade, adicione seu e-mail à conta!"
+
+# Time units
+time:
+  second: "segundo"
+  seconds: "segundos"
+  minute: "minuto"
+  minutes: "minutos"
+  hour: "hora"
+  hours: "horas"
+  day: "dia"
+  days: "dias"
+
+# Two-factor authentication
+two_factor:
+  code_created: "&2Seu código secreto é %code. Você pode escanear aqui %url"
+  confirmation_required: "Por favor, confirme seu código com /2fa confirm <código>"
+  code_required: "Por favor, envie seu código de autenticação de dois fatores com /2fa code <código>"
+  already_enabled: "A autenticação de dois fatores já está habilitada para sua conta!"
+  enable_error_no_code: "Nenhuma chave ou código 2fa foi gerado ou expirou. Use /2fa add"
+  enable_success: "A autenticação de dois fatores foi habilitada com sucesso para sua conta"
+  enable_error_wrong_code: "O código está incorreto ou expirou. Use /2fa add"
+  not_enabled_error: "A autenticação de dois fatores não está habilitada para sua conta. Use /2fa add"
+  removed_success: "A autenticação de dois fatores foi removida com sucesso da sua conta"
+  invalid_code: "Código incorreto!"

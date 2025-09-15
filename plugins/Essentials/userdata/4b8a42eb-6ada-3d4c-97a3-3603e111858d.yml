@@ -1,0 +1,44 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 192.168.56.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1757881743205
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1757882495461
+  login: 1757882036252
+  kits:
+    notch: 1757878081370
+    dtools: 1757881715006
+    firework: 1757638413364
+    color: 1757638431742
+    tools: 1757881673073
+money: '23919.0'
+logoutlocation:
+  world: ec5713b1-c724-4e7b-a326-55938b064ff0
+  world-name: world
+  x: -38.79981165311447
+  y: 65.0
+  z: -66.4717757640357
+  yaw: 169.50979614257812
+  pitch: 9.449969291687012
+last-account-name: YoungNinn
+lastlocation:
+  world: f0889456-8cc7-4f00-834c-3cfa5466c26b
+  world-name: lobby
+  x: -65.5
+  y: -51.0
+  z: -35.5
+  yaw: 1.9503859281539917
+  pitch: -7.200443267822266

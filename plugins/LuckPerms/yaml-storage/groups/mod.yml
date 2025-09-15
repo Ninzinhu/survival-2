@@ -1,0 +1,13 @@
+name: mod
+permissions:
+  - essentials.fly
+  - essentials.vanish
+  - essentials.tp
+  - essentials.tpa
+  - essentials.tphere
+  - essentials.tpaccept
+  - essentials.tpdeny
+  - essentials.tptoggle
+prefixes:
+  - "&b&lMod 🔨 ":
+      priority: 1

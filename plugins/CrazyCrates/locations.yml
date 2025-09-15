@@ -1,0 +1,37 @@
+Locations:
+  '1':
+    Crate: CrateExample
+    World: world
+    X: -54
+    Y: 66
+    Z: -89
+  '2':
+    Crate: QuickCrateExample
+    World: world
+    X: -52
+    Y: 66
+    Z: -89
+  '3':
+    Crate: QuadCrateExample
+    World: world
+    X: -50
+    Y: 66
+    Z: -89
+  '4':
+    Crate: Basico
+    World: world
+    X: -54
+    Y: 66
+    Z: -89
+  '5':
+    Crate: Vip
+    World: world
+    X: -52
+    Y: 66
+    Z: -89
+  '6':
+    Crate: Elite
+    World: world
+    X: -50
+    Y: 66
+    Z: -89
