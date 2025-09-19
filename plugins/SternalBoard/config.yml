@@ -52,8 +52,8 @@ tab-list:
   enabled: true
   update-interval: 20
   header:
-    - "&eJadud&6Land &7| &aServer Survival"
-    - "Versión 1.20/Vanilla"
+    - "&eFullDev&6Land &7| &aServer Survival"
+    - "Versão 1.20/Vanilla"
 
 #
 # Scoreboard per world configuration

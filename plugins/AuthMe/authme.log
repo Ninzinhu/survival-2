@@ -1665,3 +1665,27 @@
 
 [09-14 17:32:05]: [FINE] YoungNinn logged in 192.168.56.1
 [09-14 17:34:05]: [FINE] YoungNinn logged in 192.168.56.1
+[09-17 20:57:57]: [INFO] SQLite Setup finished
+[09-17 20:57:57]: [INFO] Hooked into LuckPerms!
+[09-17 20:57:57]: [INFO] Hooked successfully into Essentials
+[09-17 20:57:58]: [INFO] AuthMe 5.6.0-beta2 build n.2453 successfully enabled!
+[09-17 20:57:59]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[09-17 20:57:59]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[09-17 20:57:59]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[09-17 20:57:59]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins\AuthMe\GeoLite2-Country.mmdb (O sistema não pode encontrar o arquivo especificado)
+[09-17 20:57:59]: java.io.FileNotFoundException: plugins\AuthMe\GeoLite2-Country.mmdb (O sistema não pode encontrar o arquivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:344)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:259)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:213)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:173)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:144)
+	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftTask.run(CraftTask.java:82)
+	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+
+[09-17 22:03:44]: [INFO] AuthMe 5.6.0-beta2-b2453 disabled!
